@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Portfolio</title>
+
+    <style>
+        @font-face {
+            font-family: 'roboto-regular';
+            src: url('assets/font/Roboto/Roboto-Regular.ttf');
+        }
+
+        @font-face {
+            font-family: 'roboto-light';
+            src: url('assets/font/Roboto/Roboto-Light.ttf');
+        }
+
+        @font-face {
+            font-family: 'roboto-bold';
+            src: url('assets/font/Roboto/Roboto-Bold.ttf');
+        }
+
+        @font-face {
+            font-family: 'roboto-italic';
+            src: url('assets/font/Roboto/Roboto-Italic.ttf');
+        }
+
+        * {
+            font-family: 'roboto-regular', sans-serif;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        .bold {
+            font-family: 'roboto-bold';
+        }
+
+        .light {
+            font-family: 'roboto-light';
+        }
+    </style>
+</head>
+
+<body class="min-w-screen">
+    <!-- Header -->
+    <div id="home" class="h-screen bg-red-700 grid grid-cols-2 text-white">
+        <div class="border-4 border-blue-600">
+
+        </div>
+        <div class="border-4 border-blue-600 min-h-full flex flex-col justify-center items-center">
+            <p class="text-6xl font-bold bold -pt-16">Juan Prasetyo</p>
+            <p class="text-5xl">Junior Web Developer</p>
+        </div>
+    </div>
+    <!-- End of header -->
+
+    <!-- Navbar -->
+    <nav class="bg-black h-16 -mt-16 sticky top-0 z-50">
+        <div class="container h-full mx-auto text-white flex flex-row justify-center items-center bold">
+            <a href="#home" class="mx-5 text-2xl">HOME</a>
+            <a href="#aboutme" class="mx-5 text-2xl">ABOUT ME</a>
+            <a href="#myskills" class="mx-5 text-2xl">MY SKILLS</a>
+            <a href="#education" class="mx-5 text-2xl">EDUCATION</a>
+            <a href="#" class="mx-5 text-2xl">WORK EXPERIENCE</a>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Content -->
+    <div class="min-h-full">
+        <!-- About Me -->
+        <span id="aboutme" class="mb-16 invisible">1</span>
+        <div class="container mx-auto">
+            <p class="text-black font-bold text-6xl text-center pt-10">About Me</p>
+            <img src="assets/img/bwhd.svg" alt="" class="mx-auto mt-6 text-gray-500">
+            <div class="grid grid-cols-3 grid-gap-4 mt-10 items-center">
+                <div class="text-center">
+                    <p class="font-bold text-4xl">FULL NAME</p>
+                    <p class="text-2xl">Martinus Juan Prasetyo</p>
+                </div>
+                <div class="row-span-3 text-center">
+                    <div class="w-96 h-96 text-center bg-gray-500 mx-auto rounded-full">2</div>
+                </div>
+                <div class="text-center">
+                    <p class="font-bold text-4xl">ADDRESS</p>
+                    <p class="text-2xl">Cetok, Baturan, Gantiwarno, Klaten, Central Java</p>
+                </div>
+                <div class="text-center">
+                    <p class="font-bold text-4xl">BIRTHDAY</p>
+                    <p class="text-2xl">04 May 2002</p>
+                </div>
+                <div class="text-center">
+                    <p class="font-bold text-4xl">PHONE</p>
+                    <p class="text-2xl">+62 85801468150</p>
+                </div>
+                <div class="text-center">
+                    <p class="font-bold text-4xl">HOBBIES</p>
+                    <p class="text-2xl">Web Programming</p>
+                </div>
+                <div class="text-center">
+                    <p class="font-bold text-4xl">EMAIL</p>
+                    <p class="text-2xl">juanprasetyo040502@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <!-- End of About me -->
+
+        <!-- My Skills -->
+        <span id="myskills" class="mb-16 invisible">1</span>
+        <div class="mt-10 pb-10  bg-gray-600">
+            <div class="container mx-auto">
+                <p class="pt-10 font-bold text-6xl text-center text-black">MY SKILLS</p>
+                <img src="assets/img/bwhd.svg" alt="" class="mx-auto mt-6">
+                <div class="mt-10 grid grid-cols-2 grid-gap-3">
+                    <div class="mx-auto text-left">
+                        <p>HTML</p>
+                        <div class="relative h-8 w-80 rounded-full border-2 border-blue-600">
+                            <div class="h-full w-11/12 bg-red-700 absolute rounded-full"></div>
+                        </div>
+                    </div>
+                    <div class="mx-auto text-left">
+                        <p>JAVASCRIPT</p>
+                        <div class="relative h-8 w-80 rounded-full border-2 border-blue-600">
+                            <div class="h-full w-9/12 bg-red-700 absolute rounded-full"></div>
+                        </div>
+                    </div>
+                    <div class="mx-auto text-left">
+                        <p>CSS</p>
+                        <div class="relative h-8 w-80 rounded-full border-2 border-blue-600">
+                            <div class="h-full w-5/6 bg-red-700 absolute rounded-full"></div>
+                        </div>
+                    </div>
+                    <div class="mx-auto text-left">
+                        <p>CODEIGNITER</p>
+                        <div class="relative h-8 w-80 rounded-full border-2 border-blue-600">
+                            <div class="h-full w-11/12 bg-red-700 absolute rounded-full"></div>
+                        </div>
+                    </div>
+                    <div class="mx-auto text-left">
+                        <p>PHP</p>
+                        <div class="relative h-8 w-80 rounded-full border-2 border-blue-600">
+                            <div class="h-full w-9/12 bg-red-700 absolute rounded-full"></div>
+                        </div>
+                    </div>
+                    <div class="mx-auto text-left">
+                        <p>MYSQL</p>
+                        <div class="relative h-8 w-80 rounded-full border-2 border-blue-600">
+                            <div class="h-full w-8/12 bg-red-700 absolute rounded-full"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of My Skills -->
+
+        <!-- Education -->
+        <span id="education" class="mb-16 invisible">1</span>
+        <div class="container mx-auto bg-white pb-6">
+            <p class="font-bold text-6xl text-center text-black my-10">EDUCATION</p>
+            <img src="assets/img/bwhd.svg" alt="" class="mx-auto mb-6">
+            <div class="grid grid-cols-3 grid-gap-4 items-center">
+                <div class="text-right -mr-28">
+                    <p class="text-2xl font-bold text-black">SENIOR HIGH SCHOOL</p>
+                    <p class="text-lg text-red-400">SMK N 2 KLATEN</p>
+                </div>
+                <div>
+                    <div class="rounded-full w-12 h-12 bg-gray-500 mx-auto"></div>
+                </div>
+                <div>
+                    <div class="relative -ml-28">
+                        <img src="assets/img/chat-buble-right.svg" alt="">
+                        <p class="font-bold text-white text-2xl absolute top-2 left-24">
+                            2017 - Till Now
+                        </p>
+                    </div>
+                </div>
+                <div class="col-span-3 mx-auto">
+                    <div class="class h-20 w-4 bg-gray-500 mx-auto -my-2"></div>
+                </div>
+                <div class="-mr-28">
+                    <div class="relative ml-28">
+                        <img src="assets/img/chat-buble-left.svg" alt="" class="h-full">
+                        <p class="font-bold text-white text-2xl absolute top-2 left-24">
+                            2014 - 2017
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="rounded-full w-12 h-12 bg-gray-500 mx-auto"></div>
+                </div>
+                <div class="-ml-28">
+                    <p class="text-2xl font-bold text-black">JUNIOR HIGH SCHOOL</p>
+                    <p class="text-lg text-red-400">SMP N 1 GANTIWARNO</p>
+                </div>
+                <div class="col-span-3 mx-auto">
+                    <div class="class h-20 w-4 bg-gray-500 mx-auto -my-2"></div>
+                </div>
+                <div class="text-right -mr-28">
+                    <p class="text-2xl font-bold text-black">ELEMENTARY SCHOOL</p>
+                    <p class="text-lg text-red-400">SD N 1 BATURAN</p>
+                </div>
+                <div>
+                    <div class="rounded-full w-12 h-12 bg-gray-500 mx-auto"></div>
+                </div>
+                <div>
+                    <div class="relative -ml-28">
+                        <img src="assets/img/chat-buble-right.svg" alt="">
+                        <p class="font-bold text-white text-2xl absolute top-2 left-24">
+                            2007 - 2014
+                        </p>
+                    </div>
+                </div>
+                <div class="col-span-3 mx-auto">
+                    <div class="class h-20 w-4 bg-gray-500 mx-auto -my-2"></div>
+                </div>
+                <div class="-mr-28">
+                    <div class="relative ml-28">
+                        <img src="assets/img/chat-buble-left.svg" alt="">
+                        <p class="font-bold text-white text-2xl absolute top-2 left-24">
+                            2006 - 2007
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="rounded-full w-12 h-12 bg-gray-500 mx-auto"></div>
+                </div>
+                <div class="-ml-28">
+                    <p class="text-2xl font-bold text-black">KINDLE GARDEN</p>
+                    <p class="text-lg text-red-400">TK PERTIWI BATURAN</p>
+                </div>
+                <div class="col-span-3 mx-auto">
+                    <div class="class h-20 w-4 bg-gray-500 mx-auto -mt-2"></div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Education -->
+
+        <!-- Footer -->
+        <div class="bg-black">
+            <div class="container mx-auto">
+                <p id="footer" class="font-bold text-2xl text-white text-center py-10">FOLLOW ME ON</p>
+                <div class="flex flex-row justify-center text-white">
+                    <div class="mx-7">
+                        <img src="assets/img/facbook.svg" class="mx-auto" alt="facebook">
+                        <p class="text-5">Juan Prasetyo</p>
+                    </div>
+                    <div class="mx-7">
+                        <img src="assets/img/instagram.svg" class="mx-auto" alt="instagram">
+                        <p class="text-5">juanprasetyo__</p>
+                    </div>
+                    <div class="mx-7">
+                        <img src="assets/img/github.svg" class="mx-auto" alt="github">
+                        <p class="text-5">Juan Prasetyo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Footer -->
+    </div>
+    <!-- End of content -->
+
+    <!-- Footer -->
+    <footer class="h-10 flex justify-center items-center bg-black text-white">
+        <h5>&copy 2021</h5>
+    </footer>
+    <!-- End of Footer -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
